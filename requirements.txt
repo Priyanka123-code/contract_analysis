@@ -1,0 +1,16 @@
+langchain
+langchain-openai
+openai
+pydantic
+unstructured
+pdfplumber
+spacy
+chromadb
+streamlit
+python-dotenv
+pandas
+python-docx
+PyMuPDF
+tiktoken
+google-generativeai
+joblib
