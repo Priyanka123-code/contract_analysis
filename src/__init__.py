@@ -37,7 +37,7 @@ except Exception as e:
 from .ext import extract_text_from_pdf
 from .pre import extract_contract_metadata, ContractMetadata
 from .utils import classify_clauses, classify_clauses_ml, CUAD_CATEGORIES, ClauseAnalysis
-from .chroma import add_contract_to_vector_db, get_collection
+
 
 __all__ = [
     "client",
@@ -48,8 +48,6 @@ __all__ = [
     "classify_clauses_ml",
     "CUAD_CATEGORIES",
     "ClauseAnalysis",
-    "add_contract_to_vector_db",
-    "get_collection",
     "ml_model",
     "ml_vectorizer"
 ]
